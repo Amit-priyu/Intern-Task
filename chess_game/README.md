@@ -24,11 +24,11 @@ This project is a chess game built with Python and Tkinter, where we play as Whi
 ## Project Structure
 ```
 chess_game/
-├── main.py              # Entry point of the application
-├── chess_gui.py         # GUI setup and rendering (chessboard and controls)
-├── chess_logic.py       # Chess game logic (move validation, board state)
-├── llm_engines.py       # Gemini AI integration for move suggestions
-├── assets/              # Folder containing chess piece images
+├── main.py              
+├── chess_gui.py         
+├── chess_logic.py       
+├── llm_engines.py       
+├── assets/              
 │   ├── white_p.png
 │   ├── white_r.png
 │   ├── white_n.png
@@ -41,7 +41,7 @@ chess_game/
 │   ├── black_b.png
 │   ├── black_q.png
 │   ├── black_k.png
-└── README.md            # Project documentation
+└── README.md            
 ```
 
 ## Setup Instructions
@@ -67,10 +67,7 @@ pip3 install google-generativeai python-chess pillow
 - Place them in the `assets/` folder.
 
 ### 4. Obtain a Gemini API Key
-1. Go to [Google AI Studio](https://aistudio.google.com/).
-2. Sign in with your Google account.
-3. Click **"Get API Key"** and create a new key.
-4. Copy the key and keep it secure (you’ll need it to run the app).
+
 
 ## Running the Application
 
